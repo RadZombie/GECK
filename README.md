@@ -7,9 +7,10 @@
 
 Tool to set up new macOS devices.
 
-##v .1
-###Intent: to set up new _personal_ macOS devices with minimal interaction by the user.
-###Process/User Experience:
+## v .1
+
+### Intent: to set up new _personal_ macOS devices with minimal interaction by the user.
+### Process/User Experience:
 1. User runs `curl thregan.com/geck | zsh ` to download the main script and run it. User interaction ends. Script execution begins and performs the following:
 2. Install any and all  software updates. If a restart is necessary, the terminal will re-open and resume running the script after the install.
 3. Install Xcode developer tools.
